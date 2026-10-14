@@ -1,0 +1,23 @@
+# données lourdes (restent sur Drive)
+pdfs/
+raw/
+index/
+data/
+*.pdf
+
+# secrets
+.env
+*.key
+
+# python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# notebooks
+.ipynb_checkpoints/
+
+# système
+.DS_Store
+Thumbs.db
