@@ -1,0 +1,28 @@
+{
+  "IN_COLAB": false,
+  "MODE": "d\u00e9p\u00f4t",
+  "SEED": 42,
+  "GITHUB_RAW": "https://raw.githubusercontent.com/patronus-ai/financebench/main/",
+  "N_PAIR_COMPANIES": 6,
+  "N_SINGLES": 6,
+  "CHUNK_SIZE": 1200,
+  "CHUNK_OVERLAP": 200,
+  "ADD_HEADER": true,
+  "EMB_MODEL": "BAAI/bge-base-en-v1.5",
+  "QUERY_PREFIX": "Represent this sentence for searching relevant passages: ",
+  "RERANK_MODEL": "BAAI/bge-reranker-base",
+  "TOP_N": 50,
+  "RERANK_TOP": 30,
+  "RRF_K": 60,
+  "KS": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "DEV_FRAC": 0.7,
+  "RUN_TEST": false,
+  "INSTALL_MODELS": false,
+  "USE_MODELS": false,
+  "DEVICE": "cpu"
+}
